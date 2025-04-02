@@ -14,8 +14,6 @@ const Definitions = ({ meanings, word, LightTheme, category }) => {
           Your browser does not support the audio element.
         </audio>
       )}
-      
-
       {word === "" ? (
         <span className="subTitle">Start by typing a word in search</span>
       ) : (
